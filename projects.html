@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Rohan Rooswelt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!-- Background Particles -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Intro Screen -->
+    <div id="intro-screen">
+        <div id="intro-content">
+            <div class="profile-halo">
+                <img src="./images/profile.png" alt="Profile" class="intro-profile-img" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="app">
+        <header>
+            <div class="logo"><a href="index.html" style="text-decoration:none; color:inherit;">ROHAN ROOSWELT</a></div>
+        </header>
+
+        <main>
+            <!-- PROJECTS SECTION -->
+            <section id="projects" class="section-container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="glass-card project-card">
+                        <div class="project-content">
+                            <h3>Record Generator</h3>
+                            <p>A full-stack record generation and management system built for scalability and cloud
+                                deployment.</p>
+                            <div class="tech-stack">
+                                <span class="badge">React</span>
+                                <span class="badge">Django</span>
+                                <span class="badge">Docker</span>
+                                <span class="badge">AWS S3</span>
+                                <span class="badge">AWS Elastic Beanstalk</span>
+                            </div>
+                            <a href="#" class="project-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="glass-card project-card">
+                        <div class="project-content">
+                            <h3>Arcane Shield</h3>
+                            <p>A Chrome extension focused on enhancing browser-side functionality and protection using
+                                JavaScript.</p>
+                            <div class="tech-stack">
+                                <span class="badge">Chrome Extension API</span>
+                                <span class="badge">JavaScript</span>
+                            </div>
+                            <a href="#" class="project-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="glass-card project-card">
+                        <div class="project-content">
+                            <h3>Electricity Peak Demand Predictor</h3>
+                            <p>A machine learning model designed to predict peak electricity demand using historical
+                                data.</p>
+                            <div class="tech-stack">
+                                <span class="badge">Python</span>
+                                <span class="badge">PyTorch</span>
+                            </div>
+                            <a href="#" class="project-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>

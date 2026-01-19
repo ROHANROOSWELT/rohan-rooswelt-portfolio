@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rohan Rooswelt | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- Background Particles -->
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- Intro Screen -->
+  <div id="intro-screen">
+    <div id="intro-content">
+      <div class="profile-halo">
+        <img src="./images/profile.png" alt="Profile" class="intro-profile-img" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div id="app">
+    <header>
+      <div class="logo">ROHAN ROOSWELT</div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Developer</h1>
+          <div class="divider"></div>
+          <p class="summary">
+            Engineering student with strong working knowledge of Web Technologies, Full
+            Stack Development, Cloud Fundamentals, Predictive Modeling, and Computer Vision.
+            Experienced in applying theoretical concepts through academic coursework,
+            mini-projects, and hands-on implementations. Actively learning modern
+            development practices, frameworks, and tools while continuously adapting
+            to evolving technologies.
+          </p>
+          <div class="links-container">
+            <a href="https://github.com/ROHANROOSWELT" target="_blank" class="glass-pill">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/rohan-rooswelt-2981b428a/" target="_blank" class="glass-pill">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+
+          <div class="nav-grid">
+            <a href="about.html" class="glass-card nav-card">
+              <i class="fas fa-user-astronaut"></i>
+              <span>About</span>
+            </a>
+            <a href="projects.html" class="glass-card nav-card">
+              <i class="fas fa-layer-group"></i>
+              <span>Projects</span>
+            </a>
+            <a href="connect.html" class="glass-card nav-card">
+              <i class="fas fa-link"></i>
+              <span>Links</span>
+            </a>
+            <a href="experience.html" class="glass-card nav-card">
+              <i class="fas fa-briefcase"></i>
+              <span>Experience</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <img src="./images/portrait.png" alt="Portrait" class="hero-img" />
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
